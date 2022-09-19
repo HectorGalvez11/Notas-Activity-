@@ -8,7 +8,7 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/Button_Añadir"
+        android:id="@+id/ButtonAgregar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
@@ -35,6 +35,6 @@
         android:layout_marginStart="0dp"
         android:layout_marginTop="10dp"
         android:layout_marginBottom="-235dp"
-        android:background="#FFC107" />
+        android:background="#0703A9F4" />
 
 </RelativeLayout>

@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        mbtnagregar.findViewById(R.id.Button_Añadir);
+        mbtnagregar.findViewById(R.id.ButtonAgregar);
         mbtnagregar.setOnClickListener(this);
         mlistView.findViewById(R.id.Date_List);
         mlistView.setOnClickListener(this);
@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     @Override
     public void onClick(View view) {
-        if (view.getId() == R.id.Button_Añadir) {
+        if (view.getId() == R.id.ButtonAgregar) {
             String texto = medittext.getText().toString().trim();
             mLista.add(texto);
             medittext.getText().clear();
